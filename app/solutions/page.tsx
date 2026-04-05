@@ -71,7 +71,7 @@ export default function BillRipperHub() {
     const categorized: Record<string, KeywordItem[]> = {}
     CATEGORIES.forEach(cat => categorized[cat.id] = [])
     
-    const filtered = keywordsData.filter(item => {
+    const filtered = keywordsData.filter((item: KeywordItem) => {
       if (!searchQuery) return true
       const query = searchQuery.toLowerCase()
       return (
@@ -80,7 +80,7 @@ export default function BillRipperHub() {
       )
     })
     
-    filtered.forEach(item => {
+    filtered.forEach((item: KeywordItem) => {
       const categoryId = categorizeItem(item)
       categorized[categoryId].push(item)
     })
@@ -97,7 +97,7 @@ export default function BillRipperHub() {
     name: 'BillRipper Solutions Hub',
     description: 'Complete collection of 100+ API development tools and solutions',
     numberOfItems: totalItems,
-    itemListElement: keywordsData.map((item, index) => ({
+    itemListElement: keywordsData.map((item: KeywordItem, index: number) => ({
       '@type': 'ListItem',
       position: index + 1,
       item: {
