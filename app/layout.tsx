@@ -4,7 +4,7 @@ export const metadata = {
   title: 'BillRipper',
   description: 'Rip your AWS/GCP Bill with ease',
   verification: {
-    google: 'YOUR_GOOGLE_VERIFICATION_CODE_HERE',
+    google: 'uTT2vLHXrvh44esSpln_EMc1QEFjkN0vjJZ04UgI0Qc',
   },
 }
 

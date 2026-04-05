@@ -538,6 +538,13 @@ solveProblem();`;
           </div>
         </div>
       </main>
+      
+      {/* Footer */}
+      <footer className="py-8 text-center border-t border-slate-200 mt-12">
+        <p className="text-slate-500">
+          Support: <a href="mailto:457239850@qq.com" className="text-blue-600 hover:underline">457239850@qq.com</a>
+        </p>
+      </footer>
     </div>
   );
 }

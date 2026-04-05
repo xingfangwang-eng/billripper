@@ -7,6 +7,7 @@ interface KeywordItem {
   title: string;
   problem_description: string;
   how_to_solve: string;
+  code_example?: string;
 }
 
 const keywordsData: KeywordItem[] = keywordsJson.map((item: any, index: number) => ({
@@ -16,6 +17,7 @@ const keywordsData: KeywordItem[] = keywordsJson.map((item: any, index: number) 
   title: item.title,
   problem_description: item.problem_description,
   how_to_solve: item.how_to_solve,
+  code_example: item.code_example,
 }));
 
 export { keywordsData };

@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { keywordsData } from '@/data/keywords';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://billripper.com';
+  const baseUrl = 'https://billripper.wangdadi.xyz';
   
   const keywordPages = keywordsData.map((keyword: any) => ({
     url: `${baseUrl}/rip/${keyword.slug}`,
@@ -17,6 +17,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1,
+    },
+    {
+      url: `${baseUrl}/solutions`,
+      lastModified: new Date(),
+      changeFrequency: 'daily',
+      priority: 0.9,
     },
     ...keywordPages,
   ];

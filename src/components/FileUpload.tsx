@@ -320,8 +320,11 @@ export default function FileUpload() {
 
       {/* Footer */}
       <footer className="py-8 text-center">
-        <p className="text-slate-500">
+        <p className="text-slate-500 mb-2">
           No Login. No AWS Access. Your data stays in your browser.
+        </p>
+        <p className="text-slate-500">
+          Support: <a href="mailto:457239850@qq.com" className="text-blue-600 hover:underline">457239850@qq.com</a>
         </p>
       </footer>
 
