@@ -174,8 +174,17 @@ export default function FileUpload() {
   return (
     <div className="flex flex-col min-h-screen max-w-5xl mx-auto px-4 py-8 grid-gradient">
       {/* Header with Logo */}
-      <header className="py-8 flex justify-center">
-        <h1 className="text-5xl font-bold text-slate-900">BillRipper</h1>
+      <header className="py-8 flex flex-col items-center">
+        <h1 className="text-5xl font-bold text-slate-900 mb-4">BillRipper</h1>
+        <a
+          href="/solutions"
+          className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+        >
+          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+          </svg>
+          Explore 99 API Solutions
+        </a>
       </header>
 
       {/* API Key Input */}
