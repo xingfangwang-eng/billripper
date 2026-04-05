@@ -327,6 +327,28 @@ export default function FileUpload() {
         </div>
       )}
 
+      {/* Quick Access */}
+      <div className="mt-12 mb-8">
+        <h3 className="text-sm font-medium text-slate-500 mb-4">Quick Access</h3>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <a href="/rip/why-is-my-aws-nat-gateway-bill-high-2026" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">NAT Gateway Costs</a>
+          <a href="/rip/aws-cost-explorer-vs-vantage-vs-billripper" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Cost Explorer</a>
+          <a href="/rip/analyze-aws-bill-without-iam-access" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Secure Analysis</a>
+          <a href="/rip/gemini-prompt-cloud-cost-optimization" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Gemini Prompts</a>
+          <a href="/rip/reduce-aws-lambda-ai-inference-cost" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Lambda Costs</a>
+          <a href="/rip/how-to-read-aws-csv-billing-report" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">CSV Reports</a>
+          <a href="/rip/cloud-cost-monitoring-side-projects-reddit" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Side Projects</a>
+          <a href="/rip/unexpected-aws-bill-abandoned-project" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Zombie Resources</a>
+          <a href="/rip/vantage-alternative-solo-developers" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Vantage Alternative</a>
+          <a href="/rip/stop-aws-data-transfer-out-charges" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Data Transfer</a>
+          <a href="/rip/analyze-azure-bill-pdf-free" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Azure Bills</a>
+          <a href="/rip/save-money-gcp-gpu-instances" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">GCP GPU Costs</a>
+          <a href="/rip/free-finops-tool-startups-no-cc" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Free FinOps</a>
+          <a href="/rip/aws-s3-intelligent-tiering-cost-audit" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">S3 Tiering</a>
+          <a href="/rip/open-source-cloud-cost-analyzer" className="text-xs text-slate-400 hover:text-slate-600 transition-colors">Open Source</a>
+        </div>
+      </div>
+
       {/* Footer */}
       <footer className="py-8 text-center">
         <p className="text-slate-500 mb-2">
